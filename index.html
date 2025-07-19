@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Altfund</title>
+  <style>
+    /* Reset & base */
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #4b9cd3;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+    a { color: inherit; text-decoration: none; }
+    /* Logo */
+    .logo {
+      width: 168px;
+      height: 168px;
+      margin: 0 auto 1rem;
+      background: url('logo.png') center/contain no-repeat;
+    }
+    /* Headings */
+    h1 { font-size: 4rem; margin-bottom: .5rem; }
+    h2 { font-size: 2rem; margin-bottom: 1.5rem; }
+    p  { font-size: 1.125rem; margin-bottom: 2rem; }
+
+    /* Form */
+    .signup {
+      display: inline-flex;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 0 2px #fff;
+    }
+    .signup input {
+      font-size: 1rem;
+      padding: .75rem 1rem;
+      border: none;
+      outline: none;
+      min-width: 200px;
+    }
+    .signup button {
+      font-size: 1rem;
+      border: none;
+      background: #fff;
+      color: #4b9cd3;
+      padding: .75rem 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo"></div>
+  <h1>Altfund</h1>
+  <h2>Blockchain on Autopilot</h2>
+  <p>Altfund builds smart portfolios for cryptocurrency holders</p>
+
+  <form class="signup" action="https://example.com/subscribe" method="POST">
+    <input type="email" name="email" placeholder="Email *" required>
+    <button type="submit">→</button>
+  </form>
+
+  <footer style="margin-top:4rem; font-size:.875rem; color:rgba(255,255,255,.75);">
+    © Altfund
+  </footer>
+</body>
+</html>
